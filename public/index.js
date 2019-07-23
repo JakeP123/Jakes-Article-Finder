@@ -5,7 +5,8 @@ $(document).ready(
 
 
         $(".article-list").append(`
-                <div class="row col s12 m12 noArticle">
+                <div class="row col s12 m12 noArticle" style="padding-left: 3.5rem;
+                padding-top: .5rem">
                     <h2>No Article Yet, Hit The Scrape Button For a List!</h2>
                 </div>
     `)
@@ -31,7 +32,7 @@ $(document).ready(
                         <div class="col s12 m12">
                           <div class="card blue-grey darken-1">
                             <div class="card-content white-text">
-                              <span class="card-title" style="font-color: black">${article.title}</span>
+                              <span class="card-title" style="color: black;font-weight: bold;">${article.title}</span>
                               <p>${article.description}</p>
                               <a href=${article.link} >Read More</a>
                             </div>
