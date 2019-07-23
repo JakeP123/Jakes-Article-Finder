@@ -3,7 +3,7 @@
 Our VR Fitness app scrapes the web to bring back all the newest and innovatives advancements in using Virtual Reality technology as an asset for fitness. Now losing weight can truly be fun!
 
 # Try it now!
-Try our app now with no download necessary! https://dashboard.heroku.com/apps/jakes-article-scraper
+Try our app now with no download necessary! https://jakes-article-scraper.herokuapp.com/
 
 # How To Use
 
