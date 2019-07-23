@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection" />
+    <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection" />
+
+    <title>Saved Articles</title>
+</head>
+
+<body>
+    <nav class="light-blue lighten-1" role="navigation">
+        <div class="nav-wrapper container"><a id="logo-container" href="#" class="brand-logo">Jake's Article Finder</a>
+            <ul class="right hide-on-med-and-down">
+                <li><a href="/" class="homeBTN">Home</a></li>
+                <li><a href="#" class="savedBTN">Saved Articles</a></li>
+            </ul>
+
+            <ul id="nav-mobile" class="sidenav">
+                <li><a href="#">Navbar Link</a></li>
+            </ul>
+            <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+        </div>
+    </nav>
+    <div class="section no-pad-bot" id="index-banner">
+        <div class="container-fluid image">
+            <br><br>
+            <h1 class="header center orange-text">Jake's Mongo Scraper</h1>
+            <div class="row center">
+                <h5 class="header col s12 light ">Click Below To Scrape The Internet For New Articles</h5>
+            </div>
+
+            <div class="row center">
+                <a href="#" id="clear-button" class="btn-large waves-effect waves-light orange">Clear All Saved
+                    Articles</a>
+            </div>
+            <br><br>
+        </div>
+    </div>
+    <div class="article-list">
+
+    </div>
+
+        <!-- Modal Structure -->
+        <div id="modal1" class="modal">
+            <div class="modal-content">
+                <div id="noteArea"> </div>
+
+                
+                <input type="hidden" id="note-article-id" />
+                <textarea id="noteBox"></textarea>
+                <a class="btn" id="submitBTN">Submit Note</a>
+            </div>
+                
+        </div>
+    
+
+</body>
+<script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+<script src="js/materialize.js"></script>
+<script src="js/init.js"></script>
+
+<script>
+        $(document).ready(function () {
+            $('.modal').modal();
+        });
+    </script>
+<script src="saved.js"></script>
+
+</html>
