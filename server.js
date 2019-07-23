@@ -138,6 +138,6 @@ app.delete("/note/remove/:noteId", (req,res) => {
 })
 //Listening On Port
 
-app.listen(3000, () => {
+app.listen(PORT, () => {
   console.log("Listening Now on Port" + PORT)
 });
